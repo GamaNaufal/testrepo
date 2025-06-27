@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Saya</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #4f5df7;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    .intro {
+      display: flex;
+      padding: 20px;
+      border-bottom: 1px solid #ffffff;
+    }
+    .intro-text {
+      flex: 1;
+    }
+    .intro-image {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .intro-image img {
+      width: 100%;
+      max-width: 400px;
+    }
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+    .biodata {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    .biodata div {
+      border: 1px solid #909090;
+      padding: 10px;
+      width: 150px;
+      background-color: #b9abff;
+    }
+    .portfolio-table {
+      margin: auto;
+      border-collapse: collapse;
+      width: 90%;
+    }
+    .portfolio-table td, .portfolio-table th {
+      border: 1px solid #877eff;
+      padding: 10px;
+      text-align: center;
+    }
+    .portfolio-table img {
+      width: 100%;
+      max-width: 350px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div><strong>Brand</strong></div>
+  <nav>
+    <a href="#header">Header</a>
+    <a href="#biodata">Biodata</a>
+    <a href="#portfolio">Portofolio</a>
+  </nav>
+</header>
+
+<section class="intro" id="header">
+  <div class="intro-text">
+    <h2>Selamat Datang di Website Saya</h2>
+    <p>Di samping terpampang dengan jelas salah satu foto yang menurut survei dia adalah top 3 orang terganteng di seluruh dunia</p>
+    <a href="#">Pelajari Lebih Lanjut</a>
+  </div>
+  <div class="intro-image">
+    <img src="Ganteng.jpg" alt="Profile">
+  </div>
+</section>
+
+<section id="biodata">
+  <h2>About Me</h2>
+  <p>A brief introduction about myself</p>
+  <div class="biodata">
+    <div>Gama Naufal Afiyah</div>
+    <div>Universitas Diponegoro</div>
+    <div>Mahasiswa</div>
+    <div>IG: gamasalahhh</div>
+    <div>Makan</div>
+    <div>Rembang Pelosok</div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <h2>Portofolio</h2>
+  <table class="portfolio-table">
+    <tr>
+      <td>
+        <img src="Sumbing.jpg" alt="Proyek 1"><br>
+        <strong>Remed Sumbing</strong><br>Badai Coy, next kita kasih understand
+      </td>
+      <td>
+        <img src="Merbabu.jpg" alt="Proyek 2"><br>
+        <strong>Menamatkan Merbabu</strong><br>Pendaki Sejati
+      </td>
+      <td>
+        <img src="Ungaran.jpg" alt="Proyek 3"><br>
+        <strong>Menamatkan Ungaran</strong><br>Ez Banget
+      </td>
+    </tr>
+  </table>
+</section>
+
+</body>
+</html>
